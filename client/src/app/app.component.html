@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img width="150" (click)="onImgClick()" alt="Logo" src="../assets/codeworks-logo.png">
+  <app-dashboard></app-dashboard>
+</div>
+<div class="topic">
+  <button (click)="voteUp()">👍</button>
+  <button (click)="voteDown()">👎</button>
+  <app-topic></app-topic>
+</div>
+

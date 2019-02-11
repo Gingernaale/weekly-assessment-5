@@ -1,0 +1,11 @@
+
+.topic {
+  border: 2px solid orange;
+  width: 90vw;
+  height: 70px;
+  font-size: 30px;
+}
+
+img {
+  cursor: pointer;
+}
